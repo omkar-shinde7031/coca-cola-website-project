@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: hidden !important;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Nav Top Css */
+
+#nav_top {
+    width: 98%;
+    height: 12vh;
+    padding: 0 4.5vw 0 4vw;
+    left: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    
+}
+#nav_top>img {
+    height: 170px;
+    width: auto;
+    position: relative;
+    left: -100px;
+}
+#nav_top>button {
+    padding: 7px 16px;
+    font-family: "druk heavy";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 24px;
+    color: #fff;
+    white-space: nowrap;
+    background-color: rgb(199, 29, 29);
+    border-style: none;
+    cursor: pointer;
+}
+
+#nav_top>i {
+    font-size: 2.5vw;
+    display: none;
+}
+/* Nav Left Css */
+
+#nav_left {
+    width: 5vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    gap: 2vmax;
+    border-right: 2px solid rgb(43, 42, 42);
+}
+
+/* Bottle Image */
+
+#bottle {
+    position: absolute;
+    height: 97vh;
+    top: 0%;
+    left: 25%;
+    z-index: 990;
+    border-image: 0 0 2vmax black;
+}
+#bottlecopy {
+    display: none;
+}
+
+/* Page1 Css */
+
+#page1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#page1 h1 {
+    width: 60vw;
+    background-color: rgb(153, 13, 13);
+    font-family: 'Antom', sans-serif;
+    font-size: 13vw;
+    font-weight: 900;
+    text-align: center;
+    word-spacing: -1.5vw;
+    text-transform: uppercase;
+    line-height: 12vw;
+    background-image: url(texture.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+#page1_dog_image {
+    height: 15vh;
+    position: absolute;
+    top: 17%;
+    left: 34.5%;
+    transform: rotate(-30deg);
+}
+
+/* Page 2 Css */
+
+
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.1vw 0 10vw;
+}
+
+#page2_part1 {
+    width: 25vw;
+    height: 79vh;
+}
+#page2_part1 h3 {
+    font-family: dancing script;
+    margin-bottom: 12px;
+}
+#page2_part1 h1 {
+    width: 25vw;
+    height: 30vh;
+    font-size: 5vw;
+    line-height: 14vh;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    word-spacing: -1vmax;
+    background: url(texture.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#page2_part1>p {
+    font-family: Gilroy;
+    color: #111;
+    font-size: 15px;
+    font-weight: 250;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+#page2_part1>button {
+    padding: 10px 20px;
+    font-family: "druk heavy";
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 20px;
+    white-space: nowrap;
+    background-color: rgb(0, 0, 0);
+    border-style: none;
+    cursor: pointer;
+    
+    
+}
+#page2_part1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#page2_part2 {
+    width: 26.5vw;
+    height: 65vh;
+    padding: 3.5vmax 3.5vmax;
+    font-family: Gilroy;
+}
+#page2_part2 h3 {
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+#page2_part2 h5 {
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #666;
+}
+
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.2vmax solid black;
+    margin-bottom: 1vh;
+}
+#page2_part2 p {
+    font-size: 10px;
+    width: 12vw;
+    color: #111;
+    line-height: 13px;
+    font-weight: 600;
+}
+
+#box h2 {
+    font-size: 40px;
+    font-family: "druk heavy";
+}
+#box h2 span {
+    font-size: 30px;
+}
+
+/* page 3 css */
+
+
+#page3 {
+    width: 100vw;
+    height: 110vh;
+    padding: 0 5vmax 0 10vmax;
+}
+
+#page3 h1 {
+    width: 85vw;
+    font-size: 18.3vw;
+    line-height: 18.5vw;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    background: url(background-5-Picsart-AiImageEnhancer.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: rgb(177, 29, 29);
+}
+#page3_text {
+    display: flex;
+    justify-content: space-between;
+}
+#page3_text_part1 a img {
+    width: 25vw;
+    margin-top: 3vh;
+}
+#page3_text_part1 h5 {
+    width: 23vw;
+    font-size: 2vw;
+    margin-top: 3vh;
+    line-height: 4vh;
+    font-family: Gilroy;
+}
+
+#page3_text_part2 {
+    width: 30vw;
+    padding: 1vmax 2vmax;
+}
+#page3_text_part2 h5 {
+    width: 25vw;
+    font-size: 1vmax;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+}
+#page3_text_part2 h2 {
+    margin-top: 2vmax;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5vmax;
+    font-weight: 100;
+    letter-spacing: 0.05vmax;
+
+}
+#page3_text_part2 p {
+   margin-top: 3vh;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 250;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+/* Page 4 css */
+
+#page4 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-image: url(cover.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+#page4_color_image1 {
+    width: 20vw;
+    margin: 0vh 0 0 20vh;
+}
+#page4_color_image1_text {
+    width: 13vw;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+}
+#page4_color_image1_text h4 {
+    width: 8vw;
+    margin-bottom: 1vh;
+    margin-left: 3vmax;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 0.2vmax solid #000;
+    font-weight: 100;
+    letter-spacing: 0.1vmax;
+    text-transform: uppercase;
+}
+
+
+
+#page4_color_image2 {
+    width: 21vw;
+    margin: 26vh 0 0 -6vh;
+}
+
+#page4_color_image2_text {
+    width: 13vw;
+    position: absolute;
+    top: 32%;
+    left: 33%;
+    color: #fff;
+    text-align: center;
+}
+#page4_color_image2_text h4 {
+    width: 4vw;
+    margin-left: 5vmax;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 0.2vmax solid #000;
+    font-weight: 100;
+    letter-spacing: 0.1vmax;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+
+#page4_color_image3 {
+    width: 25vw;
+    margin: 20vh 0 0 40vh;
+}
+#page4_color_image3_text {
+    width: 15vw;
+    position: absolute;
+    top: 30%;
+    left: 74%;
+    color: #fff;
+    text-align: center;
+}
+#page4_color_image3_text h4 {
+    width: 8vw;
+    margin-bottom: 1vh;
+    margin-left: 3.5vmax;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 0.2vmax solid #000;
+    font-weight: 100;
+    letter-spacing: 0.1vmax;
+    text-transform: uppercase;
+}
+
+#page4_color_image4 {
+    width: 16vw;
+    height: 50vh;
+    margin: 45vh 0 0 -165vh;
+    transform: rotate(-17deg);
+}
+
+
+/* Page 5 css */
+
+
+#page5 {
+    width: 100vw;
+    height: 110vh;
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#page5 h5 {
+    font-size: 1.5vmax;
+    font-family: Gilroy;
+     font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+#page5 h1 {
+    width: 30vw;
+    text-transform: uppercase;
+    font-family: 'Anton',sans-serif;
+    font-weight: 600;
+    font-size: 6.5vw;
+    background: url(texture.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: black;
+    
+}
+
+
+
+#page5_image_box {
+    width: 100%;
+    height: 60vh;
+    padding: 0 3vw 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-top: 110px;
+    
+
+}
+#page5_bottel {
+    width: 15vw;
+    height: 60vh;
+    justify-content: center;
+}
+#page5_bottel h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Gilroy;
+}
+
+#page5_bottel img {
+    width: 15vw;
+    position: relative;
+}
+#image11 {
+    height: 48vh;
+    margin-left: -50px;
+}
+#image22 {
+height: 44vh;
+margin-left: -40px;
+}
+
+#image33 {
+    height: 47vh;
+    opacity: 0;
+    
+}
+#image44 {
+    height: 46vh;
+    margin-left: 40px;
+    
+}
+#image55 {
+    height: 54vh;
+    margin-left: 40px;
+    bottom: 20px;
+
+}
+#image55 img{
+    
+}
+#page5_bottel h4 {
+    font-family: 'Dosis', sans-serif;
+}
+#page5_bottel h6 {
+    display: flex;
+    justify-content: space-around;
+    font-family: Gilroy;
+    font-size: 1.1vmax;
+}
+
+
+/* Page 6 */
+
+#page6 {
+    width: 100vw;
+    height: 90vh;
+    padding: 0 0vw 0 9vw;
+    display: flex;
+    gap: 30px;
+}
+#page6 img {
+    width: 40vw;
+    height: 78vh;
+    
+    border-top-left-radius: 50px;
+}
+
+#page5_part2 {
+    padding: 0 4vw 0 4vw;
+    width: 40vw;
+    height: 62vh;
+}
+#page6_part2 h5 {
+    font-size: 2vmax;
+    font-family: Gilroy;
+}
+
+#page6_part2 h1 {
+   margin-top: 3vh;
+   width: 30vw;
+   font-family: 'Anton', sans-serif;
+   font-size: 4vw;
+   font-weight: 100;
+   line-height: 9.5vh;
+   letter-spacing: 0.5vw;
+   text-transform: uppercase;
+}
+#page6_part2 p {
+    margin-top: 3vh;
+    font-weight: 250;
+    font-family: 'Dosis', sans-serif;
+    color: #111;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+#page6_part2>button {
+    margin-top: 3vh;
+    font-size: 1.2vmax;
+    padding: 0.8vmax 1.5vmax;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+    background-color: #000;
+    border-style: none;
+    cursor: pointer;
+}
+/*----------------------------------------------*/
+#main #bottel {
+    
+
+}
+#page2_part2 video{
+    height: 600px;
+    
+}
+#nav_top .shop{
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    margin-left: 1100px;
+}
+#nav_top .brand{
+    text-decoration: none;
+    color: #000;
+}
+#nav_top a{
+font-size: 20px;
+ font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 30px;
+  
+
+}
+
+#page7{
+    padding: 5px 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: #fffefe;
+    margin-top: 50px;
+}
+#page7::-webkit-scrollbar{
+    display: none;
+}
+#page7 h1{
+font-size: 60px;
+font-weight: 100;
+font-weight: 500;
+display: inline-block;
+margin-left: 40px;
+animation-name: scroll;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+  font-family: "Michroma", sans-serif;
+  font-style: normal;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#page7 img span{
+    background-color: orangered;
+    color: #000000;
+   padding: 0 12px; 
+    border-radius: 20px;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes scroll{
+0%{
+    transform: translateX(0);
+}
+100%{
+    transform: translateX(-100%);
+}
+}
+#page7 img{
+    height: 50px;
+    
+}
+#page7 span{
+    padding-bottom: 20px;
+    
+    
+}
