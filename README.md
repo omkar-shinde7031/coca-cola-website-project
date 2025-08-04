@@ -47,5 +47,5 @@ Clone the repository and open the project locally:
 
 ```bash
 git clone https://github.com/yourusername/coca-cola-redesign.git
-cd coca-cola-redesign
+cd coca-cola-redesign-project
 
