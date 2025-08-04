@@ -12,8 +12,10 @@ A modern, responsive redesign of the Coca-Cola website. This project focuses on 
 - 📦 Clean, modular code structure
 
 ## 🔍 Preview
-
+[Live Demo]( https://omkar-shinde7031.github.io/coca-cola-website-project/)
+<br>
 ![Screenshot of redesigned homepage](https://github.com/omkar-shinde7031/coca-cola-website-project/blob/main/Screenshot%202025-08-04%20210042.png?raw=true)
+![Screenshot of redesigned homepage](https://github.com/omkar-shinde7031/coca-cola-website-project/blob/main/Screenshot%202025-08-02%20102842.png?raw=true)
 
 A modern, responsive redesign of the Coca-Cola website. This project focuses on enhancing user experience, visual design, and mobile accessibility while staying true to the brand's iconic identity.
 
@@ -28,7 +30,6 @@ A modern, responsive redesign of the Coca-Cola website. This project focuses on 
 
 ## 🔍 Preview
 
-![Screenshot of redesigned homepage](screenshots/homepage.png)
 
 [Live Demo](https://yourusername.github.io/coca-cola-redesign)
 
