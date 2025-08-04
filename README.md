@@ -8,7 +8,6 @@ A modern, responsive redesign of the Coca-Cola website. This project focuses on 
 - 🎨 Custom color palette inspired by Coca-Cola branding
 - 📱 Mobile-first layout
 - 🧭 Smooth navigation with scroll animations
-- 💬 Contact form (mockup or functional with backend)
 - 📦 Clean, modular code structure
 
 ## 🔍 Preview
