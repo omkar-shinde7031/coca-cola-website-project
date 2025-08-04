@@ -13,7 +13,7 @@ A modern, responsive redesign of the Coca-Cola website. This project focuses on 
 
 ## 🔍 Preview
 
-![Screenshot of redesigned homepage](# Coca-Cola Website Redesign
+![Screenshot of redesigned homepage](https://github.com/omkar-shinde7031/coca-cola-website-project/blob/main/Screenshot%202025-08-02%20102753.png?raw=true)
 
 A modern, responsive redesign of the Coca-Cola website. This project focuses on enhancing user experience, visual design, and mobile accessibility while staying true to the brand's iconic identity.
 
