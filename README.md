@@ -28,10 +28,7 @@ A modern, responsive redesign of the Coca-Cola website. This project focuses on 
 - 💬 Contact form (mockup or functional with backend)
 - 📦 Clean, modular code structure
 
-## 🔍 Preview
 
-
-[Live Demo](https://yourusername.github.io/coca-cola-redesign)
 
 ## 🚀 Getting Started
 
